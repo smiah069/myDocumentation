@@ -76,6 +76,7 @@ To copy a local file, index.html, for example to remote file server, personalpag
  + Or, remotely login to a file server and then run the command
 #+begin_quote
    sftp username@serverName
+   
    put sourceFiles [it places source files in the current directory]
 #+end_quote
   
